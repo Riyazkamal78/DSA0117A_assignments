@@ -1,0 +1,1 @@
+Joined Hello SMS; self assignment true; empty equality true; long independent copy 100000. With ordinary NRVO, a+b+c may record zero copy constructor calls; disabling optional elision should expose returned-local copies. Both benchmarks checksum 900000.

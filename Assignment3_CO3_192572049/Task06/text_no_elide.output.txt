@@ -1,0 +1,5 @@
+Hello SMS copies=2
+Self assignment true empty true different true
+Long independent copy size 100000
+Text 100000 concatenations: 5.88042 ms checksum 900000
+std::string 100000 concatenations: 7.05118 ms checksum 900000
