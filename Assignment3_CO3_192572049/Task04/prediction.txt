@@ -1,0 +1,1 @@
+Completion: Rs 200.00 then true. Carry: Rs 1.25. Negative: Rs -0.25. Bill: Rs 200.00. A million one-paise additions gives Rs 10000.00 exactly; double may show rounding drift.

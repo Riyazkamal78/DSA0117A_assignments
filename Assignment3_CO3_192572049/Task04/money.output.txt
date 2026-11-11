@@ -1,0 +1,10 @@
+Carry: Rs 1.25
+Negative: Rs -0.25
+Bill: Rs 200.00
+Mixed: Rs 100.75 | Rs 100.75
+Compare: false true
+Read: Rs 12.34
+Read: Rs -0.25
+Invalid rejected: true
+Integer million: Rs 10000.00
+Double million: 10000.000000171856 error 1.7185629985760897e-07
