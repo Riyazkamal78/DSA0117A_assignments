@@ -2,8 +2,6 @@
 
 Name: Riyaz Kamal  
 Register number: 192572049  
-Compiler: g++ (Debian 14.2.0-19) 14.2.0  
-Language: C++17
 
 ## Execution evidence
 
