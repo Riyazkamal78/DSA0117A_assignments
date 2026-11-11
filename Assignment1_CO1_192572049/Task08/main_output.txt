@@ -1,0 +1,11 @@
+Enter hour (0-23):
+Invalid number; try again.
+Enter hour (0-23):
+Invalid hour; try again.
+Enter hour (0-23):
+Invalid hour; try again.
+Enter hour (0-23):
+ZONE    HOUR   FARE       BALANCE
+Middle  10     Rs 20.00   Rs 80.00
+Allowed: true
+Display-only double: 20.00

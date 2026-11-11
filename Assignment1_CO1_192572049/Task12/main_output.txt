@@ -1,0 +1,12 @@
+airport weekday peak expected=7200 actual=7200 PASS
+airport weekend peak expected=5400 actual=5400 PASS
+airport weekend off expected=5400 actual=5400 PASS
+covered monthly pass expected=0 actual=0 PASS
+outside pass expected=3600 actual=3600 PASS
+expired pass expected=2000 actual=2000 PASS
+student weekend expected=4860 actual=4860 PASS
+senior weekday peak expected=5760 actual=5760 PASS
+Pass reserve check: PASS
+Intervening zone check: PASS
+Invalid revised zone: PASS
+Checks: 11 Failures: 0

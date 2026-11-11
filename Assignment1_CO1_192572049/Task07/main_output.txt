@@ -1,0 +1,5 @@
+fare=1000 procedural=1 oop=1 balances=9000,9000
+fare=3600 procedural=1 oop=1 balances=5400,5400
+fare=2000 procedural=0 oop=0 balances=5400,5400
+fare=-1 procedural=0 oop=0 balances=5400,5400
+Public member can break invariant: -1

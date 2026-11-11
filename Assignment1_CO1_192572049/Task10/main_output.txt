@@ -1,0 +1,18 @@
+n=20000 actual Rs=720000.000000000
+actual difference Rs=0.000000000
+stress double Rs=200200.000000034 integer paise=20020000
+stress difference Rs=0.000000034
+actual paise=72000000 int fits=true loop microseconds=74
+n=500000 actual Rs=18000000.000000000
+actual difference Rs=0.000000000
+stress double Rs=5004999.999936868 integer paise=500500000
+stress difference Rs=-0.000063132
+actual paise=1800000000 int fits=true loop microseconds=2755
+n=3000000 actual Rs=108000000.000000000
+actual difference Rs=0.000000000
+stress double Rs=30030000.001844134 integer paise=3003000000
+stress difference Rs=0.001844134
+actual paise=10800000000 int fits=false loop microseconds=19030
+Max int journeys at 3600 paise: 596523
+First unsafe journey: 596524
+Guarded int stopped at 596523 journeys; 2147482800 paise

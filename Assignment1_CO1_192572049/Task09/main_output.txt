@@ -1,0 +1,25 @@
+inner off expected=1000 actual=1000 PASS
+middle off expected=2000 actual=2000 PASS
+outer off expected=3000 actual=3000 PASS
+inner peak expected=1200 actual=1200 PASS
+middle peak expected=2400 actual=2400 PASS
+outer peak expected=3600 actual=3600 PASS
+08 boundary expected=3600 actual=3600 PASS
+10 boundary expected=3000 actual=3000 PASS
+17 boundary expected=3600 actual=3600 PASS
+20 boundary expected=3000 actual=3000 PASS
+student peak expected=3240 actual=3240 PASS
+senior peak expected=2880 actual=2880 PASS
+exact Rs50 expected=1 actual=1 PASS
+exact balance expected=5000 actual=5000 PASS
+one paisa short expected=0 actual=0 PASS
+denial unchanged expected=5999 actual=5999 PASS
+negative recharge expected=0 actual=0 PASS
+negative fare expected=0 actual=0 PASS
+overflow recharge expected=0 actual=0 PASS
+unknown zone expected=1 actual=1 PASS
+hour 24 expected=1 actual=1 PASS
+letters hour fail expected=1 actual=1 PASS
+five trip total expected=9880 actual=9880 PASS
+five trip balance expected=10120 actual=10120 PASS
+Checks: 24 Failures: 0

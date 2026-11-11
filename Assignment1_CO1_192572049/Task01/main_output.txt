@@ -1,0 +1,3 @@
+Student outer peak fare: Rs 32.40
+Journey allowed: true
+Balance: Rs 67.60

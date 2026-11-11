@@ -1,0 +1,17 @@
+digraph G {
+ graph [rankdir=TB,bgcolor=white,ranksep=.5];
+ node [shape=box,style="rounded,filled",fillcolor="#ffffd5",fontname="DejaVu Sans",fontsize=12];
+ edge [fontname="DejaVu Sans",fontsize=10];
+ start [shape=circle,label="",width=.16,style=filled,fillcolor=black];
+ read [label="Read journey"];
+ validate [label="Validate zone hour and category"];
+ quote [label="Quote fare"];
+ check [label="Check remaining balance"];
+ denied [label="Denied\nBalance unchanged"];
+ paid [label="Allowed\nDeduct exactly once"];
+ end [shape=doublecircle,label="",width=.2,style=filled,fillcolor=black];
+ start -> read; read -> validate; validate -> denied [label="[invalid]"];
+ validate -> quote [label="[valid]"];quote -> check;
+ check -> denied [label="[insufficient]"];check -> paid [label="[remaining >= Rs 50]"];
+ denied -> end;paid -> end;
+}

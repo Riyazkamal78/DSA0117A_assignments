@@ -1,0 +1,1 @@
+# No standard input; deterministic cases are in source.

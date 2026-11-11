@@ -1,0 +1,12 @@
+Type sizes in bytes
+bool 1 char 1 int 4 long long 8
+unsigned 4 float 4 double 8
+auto count 8
+CHAR_BIT 8 CHAR -128..127
+INT -2147483648..2147483647
+UINT 0..4294967295
+LLONG -9223372036854775808..9223372036854775807
+0.1 + 0.2 = 0.30000000000000004
+10 + 20 paise = 30
+Network peak total paise: 10800000000
+Fits int: false

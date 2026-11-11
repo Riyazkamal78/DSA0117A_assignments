@@ -1,0 +1,5 @@
+Validated configuration zones: 3
+Zone 0: Rs 10.00
+Zone 1: Rs 20.00
+Zone 2: Rs 30.00
+Startup O(z), quote O(1), table space O(z)

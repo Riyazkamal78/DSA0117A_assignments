@@ -1,0 +1,4 @@
+narrowing.cpp: In function ‘int main()’:
+narrowing.cpp:2:20: error: narrowing conversion of ‘3.7000000000000002e+0’ from ‘double’ to ‘int’ [-Wnarrowing]
+    2 | int main() { int x{3.7}; return x; }
+      |                    ^~~

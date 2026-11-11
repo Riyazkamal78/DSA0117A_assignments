@@ -1,0 +1,5 @@
+Zone 0: Rs 10.00
+Zone 1: Rs 20.00
+Zone 2: Rs 30.00
+Peak surcharge: 20%
+Minimum remaining: Rs 50.00

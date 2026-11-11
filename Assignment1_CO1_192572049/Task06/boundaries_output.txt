@@ -1,0 +1,4 @@
+Hour 8 peak=true fare=Rs 36.00
+Hour 10 peak=false fare=Rs 30.00
+Hour 17 peak=true fare=Rs 36.00
+Hour 20 peak=false fare=Rs 30.00

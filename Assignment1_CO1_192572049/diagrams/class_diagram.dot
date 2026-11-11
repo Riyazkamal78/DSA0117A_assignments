@@ -1,0 +1,14 @@
+digraph G {
+ graph [rankdir=TB,bgcolor="white",nodesep=.55,ranksep=.7];
+ node [shape=record,fontname="DejaVu Sans",fontsize=12,style=filled,fillcolor="#ffffd5",color="#303030"];
+ edge [fontname="DejaVu Sans",fontsize=10,color="#303030"];
+ card [label="{SmartCard|- balance_ : Money|+ canTravel(f) : bool\l+ deduct(f) : bool\l+ recharge(value) : bool\l+ balance() : Money\l}"];
+ journey [label="{Journey|+ zone : Zone\l+ hour : int\l+ passenger : Passenger\l}"];
+ passenger [label="{Passenger|+ category : Category}"];
+ fare [label="{FareTable|BASE : array of Money|+ quote(journey) : Money}"];
+ zone [label="{«enumeration» Zone|Inner\lMiddle\lOuter\l}"];
+ journey -> passenger [arrowtail=diamond,dir=both,arrowhead=none,label="1  owns  1"];
+ journey -> zone [style=dashed,arrowhead=open,label="uses"];
+ fare -> journey [style=dashed,arrowhead=open,label="quotes"];
+ card -> fare [style=dashed,arrowhead=open,label="receives quoted fare"];
+}

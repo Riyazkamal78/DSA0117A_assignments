@@ -1,0 +1,101 @@
+{
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "date_utc": "2026-11-11T10:43:03.460180+00:00",
+  "runs": [
+    {
+      "task": "Task01",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task02",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task03",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task04",
+      "source": "explicit.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task04",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": true
+    },
+    {
+      "task": "Task04",
+      "source": "narrowing.cpp",
+      "expected_compile_failure": true
+    },
+    {
+      "task": "Task05",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task05",
+      "source": "peak_table.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task06",
+      "source": "boundaries.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task06",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task07",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task08",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task09",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task10",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task11",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    },
+    {
+      "task": "Task12",
+      "source": "main.cpp",
+      "exit_code": 0,
+      "warnings": false
+    }
+  ]
+}
