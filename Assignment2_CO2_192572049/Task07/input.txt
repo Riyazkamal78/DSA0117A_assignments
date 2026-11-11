@@ -1,0 +1,1 @@
+No standard input. Test data are embedded in each main function.

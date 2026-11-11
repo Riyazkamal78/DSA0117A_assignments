@@ -1,0 +1,1 @@
+After 11 deposits, retain 200 through 1100, balance 7600. Withdrawal 200 leaves balance 7400 and retains 300 through 1100 followed by -200.

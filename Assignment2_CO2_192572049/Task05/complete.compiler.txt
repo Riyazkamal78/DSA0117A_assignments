@@ -1,0 +1,1 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -O2 Assignment2_CO2_192572049/Task05/complete.cpp -o /tmp/assignment2_program

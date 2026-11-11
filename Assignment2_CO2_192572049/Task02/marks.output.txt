@@ -1,0 +1,4 @@
+After moderation: 93
+After assignment: 95
+Copy: 0, stored: 95
+Index: 1, pointer value: 95

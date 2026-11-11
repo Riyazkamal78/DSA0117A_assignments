@@ -1,0 +1,11 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -O2 Assignment2_CO2_192572049/Task03/ambiguous.cpp -o /tmp/assignment2_program
+Assignment2_CO2_192572049/Task03/ambiguous.cpp: In function ‘int main()’:
+Assignment2_CO2_192572049/Task03/ambiguous.cpp:4:18: error: call of overloaded ‘charge(double)’ is ambiguous
+    4 | int main(){charge(2.0);}
+      |            ~~~~~~^~~~~
+Assignment2_CO2_192572049/Task03/ambiguous.cpp:1:6: note: candidate: ‘void charge(double)’
+    1 | void charge(double){}
+      |      ^~~~~~
+Assignment2_CO2_192572049/Task03/ambiguous.cpp:3:6: note: candidate: ‘void charge(double, bool, bool)’
+    3 | void charge(double,bool=false,bool=false){}
+      |      ^~~~~~

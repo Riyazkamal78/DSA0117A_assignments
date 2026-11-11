@@ -1,0 +1,17 @@
+Task06/benchmark_O0
+regular friend: median 152.6230 ms; runs 152.623, 126.751, 161.351
+inline friend: median 128.1670 ms; runs 128.167, 117.91, 134.514
+member: median 151.6290 ms; runs 156.915, 129.6, 151.629
+getters: median 190.5070 ms; runs 235.589, 129.664, 190.507
+Task06/benchmark_O2
+regular friend: median 25.2394 ms; runs 32.3814, 25.2394, 22.1688
+inline friend: median 24.1986 ms; runs 40.8609, 22.8355, 24.1986
+member: median 25.3361 ms; runs 28.0202, 23.1698, 25.3361
+getters: median 29.4044 ms; runs 30.2504, 23.7675, 29.4044
+Task07/redesign
+k=10 shift: median 2.0411 ms; runs 1.54766, 2.46404, 2.04107
+k=10 ring: median 0.8434 ms; runs 0.721858, 0.843439, 1.05092
+k=50 shift: median 3.5412 ms; runs 17.8163, 3.36109, 3.54118
+k=50 ring: median 0.9927 ms; runs 1.23943, 0.702966, 0.992709
+k=1000 shift: median 16.4442 ms; runs 14.787, 19.1222, 16.4442
+k=1000 ring: median 0.8829 ms; runs 0.96254, 0.675464, 0.882873

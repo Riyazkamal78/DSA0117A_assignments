@@ -1,0 +1,2 @@
+Across noon: 20 true
+Same time: 0 false

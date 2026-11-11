@@ -1,0 +1,6 @@
+int grams: 0.10
+double kg: 100.00
+int grams: 200.00
+double kg: 225.00
+Parcel: 175.00
+double kg: 75.00

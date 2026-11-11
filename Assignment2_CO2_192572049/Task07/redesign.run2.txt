@@ -1,0 +1,13 @@
+k=10 N=200000 equal=true
+shift 2.46404 ms writes 1999910
+ring  0.843439 ms writes 200000
+retained 199991..200000
+k=50 N=200000 equal=true
+shift 3.36109 ms writes 9997550
+ring  0.702966 ms writes 200000
+retained 199951..200000
+k=1000 N=200000 equal=true
+shift 19.1222 ms writes 199001000
+ring  0.675464 ms writes 200000
+retained 199001..200000
+11th transaction: 2 3 4 5 6 7 8 9 10 11

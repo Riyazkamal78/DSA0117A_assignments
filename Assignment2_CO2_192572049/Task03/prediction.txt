@@ -1,0 +1,1 @@
+Ambiguous sample fails. Six redesigned calls choose int, double, int, double, Parcel, double. Charges 0.10, 100.00, 200.00, 225.00, 175.00, 75.00.

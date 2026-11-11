@@ -1,0 +1,5 @@
+Value: 45000
+Reference: 40500
+Pointer: 40500
+Merit then sports: 34425
+Single parent: 33750
