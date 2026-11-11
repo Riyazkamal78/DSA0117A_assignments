@@ -1,0 +1,1 @@
+Counter prediction: 5 7 7. At t=3599, a=t++ gives a=0:59:59 and t=1:00:00; b=++t gives b=t=1:00:01. Negative and size indexes rejected. At O2 unused postfix copies may disappear.

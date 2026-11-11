@@ -1,0 +1,6 @@
+a=0:59:59 b=1:00:01 t=1:00:01
+Minute rollover 0:01:00
+Comparisons true true
+Playing Edited song at 1:00:01
+Rejected -1: track index
+Rejected 2: track index

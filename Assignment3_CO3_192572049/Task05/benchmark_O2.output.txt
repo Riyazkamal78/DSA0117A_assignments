@@ -1,0 +1,4 @@
+prefix: 2.41557 ms checksum 10000000
+postfix: 3.19842 ms checksum 10000000
+checked access: 7.33709 ms checksum 75000000
+unchecked access: 5.92365 ms checksum 75000000
