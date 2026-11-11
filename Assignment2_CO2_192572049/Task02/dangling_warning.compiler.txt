@@ -1,0 +1,8 @@
+Compile command: g++ -std=c++17 -Wall -Wextra -O2 Assignment2_CO2_192572049/Task02/dangling_warning.cpp -o /tmp/assignment2_program
+Assignment2_CO2_192572049/Task02/dangling_warning.cpp: In function ‘int& bad()’:
+Assignment2_CO2_192572049/Task02/dangling_warning.cpp:1:32: warning: reference to local variable ‘local’ returned [-Wreturn-local-addr]
+    1 | int& bad(){int local=42;return local;}
+      |                                ^~~~~
+Assignment2_CO2_192572049/Task02/dangling_warning.cpp:1:16: note: declared here
+    1 | int& bad(){int local=42;return local;}
+      |                ^~~~~
