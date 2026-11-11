@@ -3,21 +3,6 @@
 Name: Riyaz Kamal  
 Register number: 192572049  
 
-## Execution evidence
-
-These programs were executed locally with g++; PNG files show the actual captured results in a compiler-style presentation. They are not captures from an online compiler. Predictions were recorded before the first execution. The local reference example is compiled to record its warning; its dangling reference is never used. ambiguous.cpp is an intentional compile-failure diagnostic.
-
-The PDF requests a standalone repository named DSA01-192572049-Assignment2. This submission instead uses the existing repository and a new Assignment2_CO2_192572049 folder as requested. Task commits were made during this preparation session; they do not represent work on separate days. Faculty approval of these submission differences may be needed. No faculty collaborator was added.
-
-## Build and run
-
-From this assignment folder, for each source use:
-
-    g++ -std=c++17 -Wall -Wextra -O2 Task01/concessions.cpp -o program
-    ./program < Task01/input.txt
-
-Replace the source path with any program listed below. Each program has its own main and is compiled separately. input.txt records that deterministic test data are embedded in the program; no stdin values are required. For Task06/benchmark.cpp run both -O0 and -O2. Run benchmark executables three times; run2 and run3 transcripts and timing_summary.txt retain repetitions. Commands in *.compiler.txt record the exact workspace compile commands used. The -o path can be changed for your machine. PNGs are the output evidence, *.output.txt the raw stdout, and *.compiler.txt the compiler diagnostics.
-
 ## Task results
 
 ### Task 01 Call by Value Reference and Pointer
