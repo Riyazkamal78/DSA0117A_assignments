@@ -1,0 +1,1 @@
+g++ -std=c++17 -Wall -Wextra -O0 -g -fsanitize=address Assignment3_CO3_192572049/Task03/leak.cpp -o /tmp/a3_program

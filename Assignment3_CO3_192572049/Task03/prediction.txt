@@ -1,0 +1,1 @@
++A +B -B copyAc use -Ac +P -P end -A (trailing space, no newline). Auditorium: Stack created, Block created/destroyed, Heap created/deleted, Zero created, each Measure created/destroyed, Zero destroyed, Stack destroyed. Payload bytes at 8-byte pointers: 280, 20800, 2008000. Missing delete leaks 200 bytes.

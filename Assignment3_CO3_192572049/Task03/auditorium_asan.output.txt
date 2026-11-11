@@ -1,0 +1,16 @@
++Stack rows=2 seats=3 payload=22 bytes
++Block rows=1 seats=2 payload=10 bytes
+Book true duplicate false cancel true
+-Block closing booked=0
++Heap rows=2 seats=2 payload=20 bytes
+-Heap closing booked=1
++Zero rows=0 seats=20 payload=0 bytes
+Zero booking false
++Measure rows=10 seats=20 payload=280 bytes
+-Measure closing booked=0
++Measure rows=100 seats=200 payload=20800 bytes
+-Measure closing booked=0
++Measure rows=1000 seats=2000 payload=2008000 bytes
+-Measure closing booked=0
+-Zero closing booked=0
+-Stack closing booked=0

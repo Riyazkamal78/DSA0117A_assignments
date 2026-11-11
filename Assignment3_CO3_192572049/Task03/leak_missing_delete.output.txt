@@ -1,0 +1,2 @@
+Allocated 200 bytes, first seat X
+Outstanding payload: 200 bytes (delete omitted)
