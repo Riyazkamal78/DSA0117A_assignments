@@ -1,0 +1,99 @@
+Task01/books
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task01/books.cpp -o /tmp/a3_program
+Exit: 0
+
+Task01/explicit_demo_implicit
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task01/explicit_demo.cpp -o /tmp/a3_program
+Exit: 0
+
+Task01/explicit_demo_explicit
+g++ -std=c++17 -Wall -Wextra -O2 -DEXPLICIT=explicit Assignment3_CO3_192572049/Task01/explicit_demo.cpp -o /tmp/a3_program
+Exit: 1
+
+Task01/no_default
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task01/no_default.cpp -o /tmp/a3_program
+Exit: 1
+
+Task01/reorder
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task01/reorder.cpp -o /tmp/a3_program
+Exit: 0
+
+Task02/complete_asan
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address -fno-omit-frame-pointer Assignment3_CO3_192572049/Task02/complete.cpp -o /tmp/a3_program
+Exit: 0
+
+Task02/complete_no_copy_asan
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address -fno-omit-frame-pointer Assignment3_CO3_192572049/Task02/complete_no_copy.cpp -o /tmp/a3_program
+Exit: 23
+
+Task02/prescriptions
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task02/prescriptions.cpp -o /tmp/a3_program
+Exit: 0
+
+Task02/prescriptions_asan
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address Assignment3_CO3_192572049/Task02/prescriptions.cpp -o /tmp/a3_program
+Exit: 0
+
+Task02/shallow_asan
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address -fno-omit-frame-pointer Assignment3_CO3_192572049/Task02/shallow.cpp -o /tmp/a3_program
+Exit: 23
+
+Task03/auditorium_asan
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address -fno-omit-frame-pointer Assignment3_CO3_192572049/Task03/auditorium.cpp -o /tmp/a3_program
+Exit: 0
+
+Task03/leak_missing_delete
+g++ -std=c++17 -Wall -Wextra -O0 -g -fsanitize=address -DLEAK Assignment3_CO3_192572049/Task03/leak.cpp -o /tmp/a3_program
+Exit: 0
+
+Task03/leak_leak_detection_attempt
+g++ -std=c++17 -Wall -Wextra -O0 -g -fsanitize=address -DLEAK Assignment3_CO3_192572049/Task03/leak.cpp -o /tmp/a3_program
+Exit: 23
+
+Task03/leak_fixed
+g++ -std=c++17 -Wall -Wextra -O0 -g -fsanitize=address Assignment3_CO3_192572049/Task03/leak.cpp -o /tmp/a3_program
+Exit: 0
+
+Task03/prediction
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task03/prediction.cpp -o /tmp/a3_program
+Exit: 0
+
+Task04/complete
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task04/complete.cpp -o /tmp/a3_program
+Exit: 0
+
+Task04/money
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task04/money.cpp -o /tmp/a3_program
+Exit: 0
+
+Task05/benchmark_O0
+g++ -std=c++17 -Wall -Wextra -O0 Assignment3_CO3_192572049/Task05/benchmark.cpp -o /tmp/a3_program
+Exit: 0
+
+Task05/benchmark_O2
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task05/benchmark.cpp -o /tmp/a3_program
+Exit: 0
+
+Task05/playlist
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task05/playlist.cpp -o /tmp/a3_program
+Exit: 0
+
+Task05/prediction
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task05/prediction.cpp -o /tmp/a3_program
+Exit: 0
+
+Task06/text_O2
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task06/text.cpp -o /tmp/a3_program
+Exit: 0
+
+Task06/text_no_elide
+g++ -std=c++17 -Wall -Wextra -O0 -fno-elide-constructors Assignment3_CO3_192572049/Task06/text.cpp -o /tmp/a3_program
+Exit: 0
+
+Task06/text_asan
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address -fno-omit-frame-pointer Assignment3_CO3_192572049/Task06/text.cpp -o /tmp/a3_program
+Exit: 0
+
+Task07/complex
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task07/complex.cpp -o /tmp/a3_program
+Exit: 0

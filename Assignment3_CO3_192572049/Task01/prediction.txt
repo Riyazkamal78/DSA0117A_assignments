@@ -1,0 +1,1 @@
+Default: empty title, Unknown author, 0 copies. Title only: C++ Primer, Donated, 1. Full: Algorithms, Sedgewick, 3. Negative copies rejected. No-default array and explicit copy initialization fail. Reorder example warns but prints 1 2.

@@ -1,0 +1,11 @@
+g++ -std=c++17 -Wall -Wextra -O2 Assignment3_CO3_192572049/Task01/reorder.cpp -o /tmp/a3_program
+Assignment3_CO3_192572049/Task01/reorder.cpp: In constructor ‘Example::Example()’:
+Assignment3_CO3_192572049/Task01/reorder.cpp:3:16: warning: ‘Example::second’ will be initialized after [-Wreorder]
+    3 |     int first, second;
+      |                ^~~~~~
+Assignment3_CO3_192572049/Task01/reorder.cpp:3:9: warning:   ‘int Example::first’ [-Wreorder]
+    3 |     int first, second;
+      |         ^~~~~
+Assignment3_CO3_192572049/Task01/reorder.cpp:4:5: warning:   when initialized here [-Wreorder]
+    4 |     Example() : second(2), first(1) {}
+      |     ^~~~~~~

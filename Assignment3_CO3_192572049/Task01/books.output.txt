@@ -1,0 +1,5 @@
+[] [Unknown] 0
+[C++ Primer] [Donated] 1
+[Algorithms] [Sedgewick] 3
+Default array record: [] [Unknown] 0
+Rejected: negative copies
