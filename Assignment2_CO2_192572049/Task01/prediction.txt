@@ -1,0 +1,6 @@
+Stored fees: value 45000; reference 40500; pointer 40500.
+Prediction program:
+1 12 13
+1 100
+16 13 6 
+Complete code: 45000 then 40500.
