@@ -1,0 +1,1 @@
+No stdin input is required. All deterministic test data are embedded in main.

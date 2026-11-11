@@ -1,0 +1,1 @@
+At omega=1000: ZR=100, ZL=j200, ZC=-j100. Series=100+j100, magnitude sqrt(20000)=141.421356. Parallel admittance=0.01+j0.005; impedance=80-j40, magnitude sqrt(8000)=89.442719. Zero divisor must throw.

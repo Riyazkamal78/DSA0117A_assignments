@@ -1,0 +1,5 @@
+Series: 100.000000 + j100.000000 |Z|=141.421356
+Parallel: 80.000000 - j40.000000 |Z|=89.442719
+std::complex agreement: true true
+Basic operators: 2.000000 + j2.000000 | 11.000000 + j2.000000 equality true
+Rejected: zero impedance divisor
