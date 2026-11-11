@@ -1,0 +1,1 @@
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address -fno-omit-frame-pointer Assignment3_CO3_192572049/Task02/complete.cpp -o /tmp/a3_program

@@ -1,0 +1,10 @@
+Copy constructor
+Original | Follow-up
+Copy constructor
+Value size 2
+Copies by value: 1
+Reference size 2
+Copies by const reference: 0
+n=10 20 copies 0.001383 ms checksum 200
+n=1000 20 copies 0.143995 ms checksum 20000
+n=100000 20 copies 10.1737 ms checksum 2000000

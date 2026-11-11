@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; bgcolor="white"; node [shape=box,fontname="Times New Roman",fontsize=16,margin="0.16,0.10"]; p [label="p\nmedicines pointer"]; q [label="q deep copy\nmedicines pointer"]; a [label="Heap array A\nIbuprofen | ORS",style=rounded]; b [label="Heap array B\nParacetamol | Cetirizine",style=rounded]; p -> a; q -> b; }

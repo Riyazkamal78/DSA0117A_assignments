@@ -1,0 +1,1 @@
+Shallow copy changes the original then produces a sanitizer error on destruction. Deep completion: Ibuprofen ORS | Paracetamol Cetirizine | Paracetamol ORS. Passing a live lvalue by value makes one copy; const reference makes zero. Self assignment preserves content.

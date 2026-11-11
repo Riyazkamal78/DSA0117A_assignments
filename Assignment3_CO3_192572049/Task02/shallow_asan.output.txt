@@ -1,0 +1,56 @@
+Original changed to: Changed
+=================================================================
+==59==ERROR: AddressSanitizer: heap-use-after-free on address 0x504000000010 at pc 0x55e1d9fee6cf bp 0x7ffd285e3c00 sp 0x7ffd285e3bf8
+READ of size 8 at 0x504000000010 thread T0
+    #0 0x55e1d9fee6ce in Prescription::~Prescription() Assignment3_CO3_192572049/Task02/shallow.cpp:7
+    #1 0x55e1d9fee55c in main Assignment3_CO3_192572049/Task02/shallow.cpp:18
+    #2 0x7f59af77bca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #3 0x7f59af77bd64 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29d64) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #4 0x55e1d9fee1c0 in _start (/tmp/a3_program+0x21c0) (BuildId: 9aee8b8bab5b72cc51bfe06623e47382a9def6b1)
+
+0x504000000010 is located 0 bytes inside of 40-byte region [0x504000000010,0x504000000038)
+freed by thread T0 here:
+    #0 0x7f59afdc17a8 in operator delete[](void*, unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:167
+    #1 0x55e1d9fee77b in Prescription::~Prescription() Assignment3_CO3_192572049/Task02/shallow.cpp:7
+    #2 0x55e1d9fee553 in main Assignment3_CO3_192572049/Task02/shallow.cpp:18
+    #3 0x7f59af77bca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+
+previously allocated by thread T0 here:
+    #0 0x7f59afdc08d8 in operator new[](unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:98
+    #1 0x55e1d9fee327 in Prescription::Prescription() Assignment3_CO3_192572049/Task02/shallow.cpp:6
+    #2 0x55e1d9fee327 in main Assignment3_CO3_192572049/Task02/shallow.cpp:13
+    #3 0x7f59af77bca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+
+SUMMARY: AddressSanitizer: heap-use-after-free Assignment3_CO3_192572049/Task02/shallow.cpp:7 in Prescription::~Prescription()
+Shadow bytes around the buggy address:
+  0x503ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x503ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x503ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x503fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x503fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x504000000000: fa fa[fd]fd fd fd fd fa fa fa fa fa fa fa fa fa
+  0x504000000080: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x504000000100: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x504000000180: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x504000000200: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x504000000280: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==59==ABORTING

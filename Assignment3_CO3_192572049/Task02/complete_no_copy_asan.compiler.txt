@@ -1,0 +1,8 @@
+g++ -std=c++17 -Wall -Wextra -O1 -g -fsanitize=address -fno-omit-frame-pointer Assignment3_CO3_192572049/Task02/complete_no_copy.cpp -o /tmp/a3_program
+Assignment3_CO3_192572049/Task02/complete_no_copy.cpp: In function ‘int main()’:
+Assignment3_CO3_192572049/Task02/complete_no_copy.cpp:25:22: warning: implicitly-declared ‘constexpr Prescription::Prescription(const Prescription&)’ is deprecated [-Wdeprecated-copy]
+   25 |     Prescription q = p;
+      |                      ^
+Assignment3_CO3_192572049/Task02/complete_no_copy.cpp:8:19: note: because ‘Prescription’ has user-provided ‘Prescription& Prescription::operator=(const Prescription&)’
+    8 |     Prescription& operator=(const Prescription& other) {
+      |                   ^~~~~~~~

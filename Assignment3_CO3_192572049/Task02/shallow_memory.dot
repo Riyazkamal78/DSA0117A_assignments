@@ -1,0 +1,1 @@
+digraph G { rankdir=LR; bgcolor="white"; node [shape=box,fontname="Times New Roman",fontsize=16,margin="0.16,0.10"]; edge [fontname="Times New Roman",fontsize=13]; p [label="p\nmedicines pointer"]; q [label="q shallow copy\nmedicines pointer"]; a [label="One heap array\nChanged\nShared allocation",style=rounded]; p -> a; q -> a; }
