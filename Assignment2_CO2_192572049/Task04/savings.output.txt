@@ -1,0 +1,6 @@
+Account 192572049 Balance 7600
+Last 10 transactions: 200 300 400 500 600 700 800 900 1000 1100
+Withdraw 200: true
+Account 192572049 Balance 7400
+Last 10 transactions: 300 400 500 600 700 800 900 1000 1100 -200
+Overdraft accepted: false
