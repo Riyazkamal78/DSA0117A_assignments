@@ -1,0 +1,4 @@
+regular friend: 32.3814 ms checksum 3634577920
+inline friend: 40.8609 ms checksum 3634577920
+member: 28.0202 ms checksum 3634577920
+getters: 30.2504 ms checksum 3634577920
