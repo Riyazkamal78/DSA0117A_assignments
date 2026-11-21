@@ -1,0 +1,15 @@
+$ g++ -std=c++17 -Wall -Wextra -g -O0 -fno-omit-frame-pointer -fsanitize=address -no-pie repaired.cpp -o repaired
+$ ASAN_OPTIONS=detect_leaks=0 ./repaired
+Base pointers to live objects
+3.5%
+4.0%
+~SeniorAccount (releases history)
+~Account
+~Account
+
+Owning vector of unique_ptr<Account>
+3.5%
+4.0%
+~Account
+~SeniorAccount (releases history)
+~Account

@@ -1,0 +1,3 @@
+Demonstration data (built into the source; no stdin input)
+
+One Account and one SeniorAccount; the senior object owns 100 doubles in the broken example.

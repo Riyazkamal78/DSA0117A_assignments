@@ -1,0 +1,13 @@
+$ g++ -std=c++17 -Wall -Wextra -g -O0 -fno-omit-frame-pointer -fsanitize=address -no-pie broken.cpp -o broken
+$ ASAN_OPTIONS=new_delete_type_mismatch=0:detect_leaks=0 ./broken
+Rate through Account*: 3.5%
+Rate through Account*: 3.5%
+Senior rate before slicing: 4%
+Sliced copy rate: 3.5%
+~Account
+~SeniorAccount (releases history)
+~Account
+Deleting through Account* (undefined for SeniorAccount):
+~Account
+~Account
+Outstanding history allocations: 1 (800 payload bytes)

@@ -1,0 +1,32 @@
+$ g++ -std=c++17 -Wall -Wextra -g -O0 -fno-omit-frame-pointer -fsanitize=address -no-pie broken.cpp -o broken
+$ ASAN_OPTIONS=detect_leaks=0 ./broken
+Rate through Account*: 3.5%
+Rate through Account*: 3.5%
+Senior rate before slicing: 4%
+Sliced copy rate: 3.5%
+~Account
+~SeniorAccount (releases history)
+~Account
+Deleting through Account* (undefined for SeniorAccount):
+~Account
+~Account
+=================================================================
+==74==ERROR: AddressSanitizer: new-delete-type-mismatch on 0x502000000030 in thread T0:
+  object passed to delete has wrong type:
+  size of the allocated type:   8 bytes;
+  size of the deallocated type: 1 bytes.
+    #0 0x7fa503060678 in operator delete(void*, unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164
+    #1 0x401607 in main /workspace/scratch/6e63577db9a9/Assignment4_CO4_192572049/Task04/broken.cpp:38
+    #2 0x7fa502a1aca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #3 0x7fa502a1ad64 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29d64) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #4 0x401190 in _start (/workspace/scratch/6e63577db9a9/work/bin/Task04_broken+0x401190) (BuildId: 058ee8fea5483344d8fb4752cf5530bbe03fecc1)
+
+0x502000000030 is located 0 bytes inside of 8-byte region [0x502000000030,0x502000000038)
+allocated by thread T0 here:
+    #0 0x7fa50305f778 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:95
+    #1 0x40134c in main /workspace/scratch/6e63577db9a9/Assignment4_CO4_192572049/Task04/broken.cpp:26
+    #2 0x7fa502a1aca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+
+SUMMARY: AddressSanitizer: new-delete-type-mismatch ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164 in operator delete(void*, unsigned long)
+==74==HINT: if you don't care about these errors you may set ASAN_OPTIONS=new_delete_type_mismatch=0
+==74==ABORTING

@@ -1,0 +1,3 @@
+$ g++ -std=c++17 -Wall -Wextra binding_prediction.cpp -o binding_prediction
+$ ./binding_prediction
+3.5 4 3.5
