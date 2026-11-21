@@ -1,0 +1,5 @@
+$ g++ -std=c++17 -Wall -Wextra payroll.cpp -o payroll
+$ ./payroll
+101 Meera: 76000.00
+102 Arun: 35500.00
+103 Isha: 16000.00

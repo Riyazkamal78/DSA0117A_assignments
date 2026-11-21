@@ -1,0 +1,3 @@
+Demonstration data (built into the source; no stdin input)
+
+Professor Meera: basic 50000, research allowance 5000. Lab assistant Arun: basic 25000. Guest faculty Isha: 20 hours at 800. DA: 42% of basic pay.
