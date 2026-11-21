@@ -2,8 +2,6 @@
 
 **Name:** Riyaz Kamal  
 **Register number:** 192572049  
-**Compiler:** g++ (Debian 14.2.0-19) 14.2.0, x86-64 Linux  
-**Language:** C++17
 
 Each task is self-contained. Change to its folder before running the commands. The demonstration data are built into the programs and listed in each `input.txt`. PNGs show the captured results in a compiler-console layout. The corresponding TXT files preserve the full console logs.
 
