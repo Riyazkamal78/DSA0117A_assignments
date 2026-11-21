@@ -1,0 +1,3 @@
+$ g++ -std=c++17 -Wall -Wextra cart_by_value.cpp -o cart_by_value
+$ ./cart_by_value
+240.00

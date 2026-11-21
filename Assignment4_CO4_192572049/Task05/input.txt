@@ -1,0 +1,3 @@
+Demonstration data (built into the source; no stdin input)
+
+Rice 60, Dal 120, Oil 180, 10% discount. Search also includes Milk 80 and Bread 55, a null slot and Groceries 450 at a 5% discount.

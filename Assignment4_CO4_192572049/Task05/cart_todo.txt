@@ -1,0 +1,3 @@
+$ g++ -std=c++17 -Wall -Wextra cart_todo.cpp -o cart_todo
+$ ./cart_todo
+324.00

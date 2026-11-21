@@ -1,0 +1,6 @@
+$ g++ -std=c++17 -Wall -Wextra cart_search.cpp -o cart_search
+$ ./cart_search
+Named / pointer / reference cart: 324.00
+Second cart: 135.00
+Dynamically allocated cart: 427.50
+Highest active cart total: 427.50
