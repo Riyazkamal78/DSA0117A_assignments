@@ -1,0 +1,22 @@
+$ g++ -std=c++17 -Wall -Wextra fleet.cpp -o fleet
+$ ./fleet
+Rented B01 (Bicycle)
+Rented T01 (Two-wheeler)
+Rented C01 (Car)
+Rented E01 (Electric car)
+Rent rejected: C01
+Returned B01: INR 300.00 (late fee 0.00)
+Returned T01: INR 1070.00 (late fee 0.00)
+Returned C01: INR 4275.00 (late fee 150.00)
+Returned E01: INR 3216.00 (late fee 0.00)
+
+Extension
+Rented EB01 (Electric bus)
+Returned EB01: INR 4450.00 (late fee 0.00)
+
+Fleet status
+B01 | Bicycle | Available | INR 150.00/day
+T01 | Two-wheeler | Available | INR 400.00/day | level 80.00% | service 2026-12-01
+C01 | Car | Available | INR 1200.00/day | level 70.00% | service 2026-12-07 | 5 seats
+E01 | Electric car | Available | INR 1500.00/day | level 90.00% | service 2026-12-10 | 5 seats | 50.00 kWh battery
+EB01 | Electric bus | Available | INR 4000.00/day | level 95.00% | service 2026-12-15 | 180.00 kWh battery
