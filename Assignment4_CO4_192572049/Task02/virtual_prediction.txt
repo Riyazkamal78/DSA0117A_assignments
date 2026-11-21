@@ -1,0 +1,3 @@
+$ g++ -std=c++17 -Wall -Wextra virtual_prediction.cpp -o virtual_prediction
+$ ./virtual_prediction
+Person Student Staff TA 

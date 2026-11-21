@@ -1,0 +1,3 @@
+$ g++ -std=c++17 -Wall -Wextra nonvirtual_prediction.cpp -o nonvirtual_prediction
+$ ./nonvirtual_prediction
+Person Student Person Staff TA 

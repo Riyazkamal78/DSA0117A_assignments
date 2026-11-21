@@ -1,0 +1,8 @@
+$ g++ -std=c++17 -Wall -Wextra hierarchy.cpp -o hierarchy
+$ ./hierarchy
+Anu (201, 9000000201) | M.Tech 9.1 | CSE 12000
+PhD | University Fellowship: 30000
+Virtual diamond shares Person: true
+Composition shares Person: false
+sizeof(TeachingAssistant): 168 bytes
+sizeof(ComposedTA): 240 bytes

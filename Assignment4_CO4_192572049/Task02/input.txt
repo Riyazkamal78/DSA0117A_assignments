@@ -1,0 +1,3 @@
+Demonstration data (built into the source; no stdin input)
+
+Anu (201), M.Tech (9.1), CSE (12000), with a separate PhD fellowship example. The prediction programs default-construct a teaching assistant.

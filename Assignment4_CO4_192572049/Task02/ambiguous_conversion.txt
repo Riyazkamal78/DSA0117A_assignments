@@ -1,0 +1,5 @@
+$ g++ -std=c++17 -Wall -Wextra ambiguous_conversion.cpp -o ambiguous_conversion
+ambiguous_conversion.cpp: In function ‘int main()’:
+ambiguous_conversion.cpp:13:24: error: ‘Person’ is an ambiguous base of ‘TeachingAssistant’
+   13 |     Person* identity = &ta;
+      |                        ^~~

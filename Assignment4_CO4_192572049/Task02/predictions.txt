@@ -1,0 +1,6 @@
+Predictions recorded before execution. ␠ marks the trailing space; [LF] is the final newline.
+
+virtual_prediction: Person Student Staff TA␠[LF]
+nonvirtual_prediction: Person Student Person Staff TA␠[LF]
+
+Removing virtual alone gives no compiler diagnostic. Adding a direct TeachingAssistant* to Person* conversion makes Person an ambiguous base.
