@@ -1,0 +1,13 @@
+$ g++ -std=c++17 -Wall -Wextra student_reorder.cpp -o student_reorder
+student_reorder.cpp: In constructor ‘Student::Student(const std::string&, int, long long int, const std::string&, int)’:
+student_reorder.cpp:24:13: warning: ‘Student::home’ will be initialized after [-Wreorder]
+   24 |     Address home;
+      |             ^~~~
+student_reorder.cpp:23:15: warning:   ‘long long int Student::regNo’ [-Wreorder]
+   23 |     long long regNo;
+      |               ^~~~~
+student_reorder.cpp:27:5: warning:   when initialized here [-Wreorder]
+   27 |     Student(const std::string& n, int a, long long reg, const std::string& city, int pin)
+      |     ^~~~~~~
+$ ./student_reorder
+192311001 Kavya (19) Salem-636001

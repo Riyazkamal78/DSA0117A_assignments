@@ -1,0 +1,3 @@
+Predictions recorded before execution. ␠ marks the trailing space; [LF] is the final newline.
+
+car_prediction: Vehicle Engine Car | ~Car ~Engine ~Vehicle␠[LF]

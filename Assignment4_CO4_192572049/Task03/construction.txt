@@ -1,0 +1,35 @@
+$ g++ -std=c++17 -Wall -Wextra construction.cpp -o construction
+$ ./construction
+[Student]
+Address
+Person
+Course
+Student
+~Student
+~Course
+~Person
+~Address
+
+[Staff]
+Address
+Person
+Staff
+~Staff
+~Person
+~Address
+
+[TeachingAssistant]
+Address
+Person
+Course
+Student
+Staff
+TeachingAssistant
+~TeachingAssistant
+~Staff
+~Student
+~Course
+~Person
+~Address
+
+sizeof(TeachingAssistant): 152 bytes

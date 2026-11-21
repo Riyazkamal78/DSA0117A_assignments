@@ -1,0 +1,3 @@
+Demonstration data (built into the source; no stdin input)
+
+Student Kavya in Salem (636001), Staff Arun in Chennai (600001), TA Anu in Madurai (625001). The TODO sample uses Kavya, age 19, register 192311001. The Car trace uses default construction.

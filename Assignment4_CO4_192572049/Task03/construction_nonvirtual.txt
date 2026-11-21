@@ -1,0 +1,39 @@
+$ g++ -std=c++17 -Wall -Wextra construction_nonvirtual.cpp -o construction_nonvirtual
+$ ./construction_nonvirtual
+[Student]
+Address
+Person
+Course
+Student
+~Student
+~Course
+~Person
+~Address
+
+[Staff]
+Address
+Person
+Staff
+~Staff
+~Person
+~Address
+
+[TeachingAssistant]
+Address
+Person
+Course
+Student
+Address
+Person
+Staff
+TeachingAssistant
+~TeachingAssistant
+~Staff
+~Person
+~Address
+~Student
+~Course
+~Person
+~Address
+
+sizeof(TeachingAssistant): 208 bytes
