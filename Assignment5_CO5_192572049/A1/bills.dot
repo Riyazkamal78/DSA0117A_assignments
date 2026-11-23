@@ -1,0 +1,11 @@
+digraph Bills {
+  graph [bgcolor="white", rankdir=BT, pad=0.12, nodesep=0.22, ranksep=0.58];
+  node [shape=record, fontname="Liberation Sans", fontsize=12, margin="0.14,0.07"];
+  edge [arrowhead=empty];
+  Bill [label="{«abstract» Bill|- patient: string|+ total(): double «pure virtual»\l+ type(): string_view «pure virtual»\l+ print(out): void «non-virtual»\l+ ~Bill() «virtual»\l}"];
+  OP [label="{OutPatientBill|- consultation, tests|+ total() «override»\l+ type() «override»\l}"];
+  IP [label="{InPatientBill|- days, rate, procedures,\l  medicines\l|+ total() «override»\l+ type() «override»\l}"];
+  DAY [label="{DayCareBill|- package|+ total() «override»\l+ type() «override»\l}"];
+  ER [label="{EmergencyBill|- base, hours, rate|+ total() «override»\l+ type() «override»\l}"];
+  OP -> Bill; IP -> Bill; DAY -> Bill; ER -> Bill;
+}

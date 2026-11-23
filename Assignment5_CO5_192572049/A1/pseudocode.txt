@@ -1,0 +1,10 @@
+ALGORITHM TotalDailyBills(Bills, N)
+INPUT: Bills, an array of N valid Bill references
+OUTPUT: DailyTotal, the sum of all bill amounts
+BEGIN
+    DailyTotal ← 0
+    FOR Index ← 0 TO N − 1 DO
+        DailyTotal ← DailyTotal + Bills[Index].total()
+    END FOR
+    RETURN DailyTotal
+END
