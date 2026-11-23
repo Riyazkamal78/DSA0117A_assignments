@@ -1,0 +1,11 @@
+digraph Payers {
+  graph [bgcolor="white", pad=0.12, rankdir=BT, nodesep=0.20, ranksep=0.44];
+  node [shape=record, fontname="Liberation Sans", fontsize=11, margin="0.12,0.08"];
+  edge [arrowhead=empty];
+  Payer [label="{«abstract» Payer|+ amountCovered(const Bill&): double «pure virtual»\l+ ~Payer() «virtual»\l}"];
+  Self [label="{SelfPay|+ amountCovered() «override»\l}"];
+  Insurance [label="{Insurance|- limit, co-payment fraction\l|+ amountCovered() «override»\l}"];
+  Gov [label="{GovernmentScheme|- package rates\l|+ amountCovered() «override»\l}"];
+  Corporate [label="{CorporatePayer|- cap\l|+ amountCovered() «override»\l}"];
+  Self -> Payer; Insurance -> Payer; Gov -> Payer; Corporate -> Payer;
+}
