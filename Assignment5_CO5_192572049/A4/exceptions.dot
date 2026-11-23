@@ -1,0 +1,16 @@
+digraph Errors {
+  graph [bgcolor="white", pad=0.12, rankdir=BT, nodesep=0.21, ranksep=0.32];
+  node [shape=box, fontname="Liberation Sans", fontsize=11, margin="0.12,0.06"];
+  edge [arrowhead=empty];
+  "std::logic_error" -> "std::exception";
+  "std::runtime_error" -> "std::exception";
+  "std::bad_alloc" -> "std::exception";
+  "std::invalid_argument" -> "std::logic_error";
+  "std::out_of_range" -> "std::logic_error";
+  BillingError -> "std::runtime_error";
+  ClaimError -> BillingError;
+  MissingPatient -> BillingError;
+  InvalidCharge -> BillingError;
+  AboveCover -> ClaimError;
+  UnknownPackage -> ClaimError;
+}
