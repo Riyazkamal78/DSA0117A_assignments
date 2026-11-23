@@ -1,0 +1,5 @@
+Mixed bills: 10, 1000, 1000000, 10000000.
+Seeds and all fields are reproduced by the deterministic generator in bench.cpp (seed 47).
+Validation: 1000000 inputs per group, amount 400 for valid and -1 for invalid.
+Invalid rates: 0%, 1%, 50%, with the first invalid_pct items in each block of 100 invalid.
+The optional --small argument runs a lightweight sanitizer check.

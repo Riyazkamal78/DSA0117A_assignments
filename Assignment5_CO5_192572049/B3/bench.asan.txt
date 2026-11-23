@@ -1,0 +1,27 @@
+Row Kind Virtual Switch Variant
+1 0 203 203 203
+2 1 854 854 854
+3 1 1060 1060 1060
+4 2 203 203 203
+5 2 204 204 204
+6 3 605 605 605
+7 3 356 356 356
+8 0 211 211 211
+9 2 208 208 208
+10 1 1304 1304 1304
+Verified total for 10 bills: 5208
+
+Bills Virtual_ms Switch_ms Variant_ms Checksum
+1000 0.009 0.003 0.003 589857
+
+Invalid Status_ms Exception_ms Optional_ms
+0% 0.001 0.002 0.056
+1% 0.001 0.018 0.054
+50% 0.001 0.833 0.022
+
+Size in bytes
+Virtual object 24 + owner 8 (excludes allocator overhead)
+Tagged 16 | Variant 16 | Plain alternative 12
+Status 4 | int 4 | optional<int> 8 | optional<double> 16
+
+[Process exited with code 0]
