@@ -1,0 +1,4 @@
+Prediction: 100.0, -5.0, 2000000.0
+Claim completion (billed, cover): (40000,50000), (60000,50000), (-1,50000)
+Fault tests: -1 charge, 60000 claim/50000 cover, UNKNOWN code, abc numeric text,
+empty patient, injected bad_alloc, throw 42, then a valid 1700 bill.

@@ -1,0 +1,7 @@
+// TODO 1 in approve
+if (billed < 0 || cover < 0) throw std::invalid_argument("negative amount");
+if (billed > cover) throw ClaimError("exceeds cover");
+return billed;
+// TODO 2 in the ClaimError handler in settle
+std::cout << "audit: " << e.what() << '\n';
+throw;

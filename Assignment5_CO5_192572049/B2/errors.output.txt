@@ -1,0 +1,27 @@
+Negative charge
+Destroyed case guard
+Billing error: invalid charge
+Above cover
+Destroyed case guard
+Billing error: claim exceeds policy cover
+Unknown package
+Destroyed case guard
+Billing error: unknown package
+Invalid number
+Destroyed case guard
+Caught std::invalid_argument from std::stod
+Missing patient
+Destroyed case guard
+Billing error: missing patient record
+Allocation failure
+Destroyed case guard
+Caught std::bad_alloc
+Unknown exception
+Destroyed inner guard
+Destroyed case guard
+Catch-all handled unknown exception
+Subsequent valid case
+Still running. Total = 1700
+Destroyed case guard
+
+[Process exited with code 0]
