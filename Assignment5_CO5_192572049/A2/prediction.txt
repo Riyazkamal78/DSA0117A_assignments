@@ -1,0 +1,2 @@
+A2 virtual: "500 ~OPBill ~Bill \n"
+A2 without virtual: undefined behavior. No portable exact output. Expect AddressSanitizer to report a new-delete-type-mismatch if the deletion sizes are different and the sanitizer observes them.

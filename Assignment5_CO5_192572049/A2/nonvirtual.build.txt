@@ -1,0 +1,4 @@
+A2/nonvirtual.cpp: In function ‘int main()’:
+A2/nonvirtual.cpp:18:5: warning: deleting object of abstract class type ‘Bill’ which has non-virtual destructor will cause undefined behavior [-Wdelete-non-virtual-dtor]
+   18 |     delete b;
+      |     ^~~~~~~~

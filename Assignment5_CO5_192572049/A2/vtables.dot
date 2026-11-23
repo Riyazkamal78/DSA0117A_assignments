@@ -1,0 +1,11 @@
+digraph Dispatch {
+  graph [bgcolor="white", pad=0.12, nodesep=0.20, ranksep=0.40];
+  node [shape=record, fontname="Liberation Sans", fontsize=11, margin="0.12,0.07"];
+  edge [fontname="Liberation Sans", fontsize=10];
+  Base [label="{Bill abstract table|total → pure slot\ltype → pure slot\l~Bill → Bill cleanup\l}"];
+  Out [label="{OutPatientBill table|<total> total → OutPatientBill::total\l|type → OutPatientBill::type\l~Bill → OutPatientBill cleanup\l}"];
+  In [label="{InPatientBill table|total → InPatientBill::total\ltype → InPatientBill::type\l~Bill → InPatientBill cleanup\l}"];
+  Call [label="b points to OutPatientBill\nb → vptr → total slot"];
+  {rank=same; Base; Out; In}
+  Call -> Out:total;
+}
