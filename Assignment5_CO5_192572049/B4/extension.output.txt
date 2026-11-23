@@ -1,0 +1,12 @@
+Bill Gross | Self cover/due | Insurance cover/due | Scheme cover/due
+OP 1700.00 | 0.00/1700.00 | 1360.00/340.00 | 1000.00/700.00
+IP 47500.00 | 0.00/47500.00 | 38000.00/9500.00 | 30000.00/17500.00
+DAY 18000.00 | 0.00/18000.00 | 14400.00/3600.00 | 15000.00/3000.00
+ER 3500.00 | 0.00/3500.00 | 2800.00/700.00 | 2000.00/1500.00
+Verified 12 payer results. Daily total: 70700.00
+TEL Kiran: 1000.00 | Corporate cover 700.00 | Due 300.00
+Audit: unknown package
+Claim pending: unknown package
+Retried using self pay. Stored gross = 1000.00 | Patient due = 1000.00
+
+[Process exited with code 0]

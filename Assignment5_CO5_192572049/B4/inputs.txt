@@ -1,0 +1,4 @@
+First runs all B1 baseline matrix inputs.
+TEL Kiran: consultation=900 platform=100.
+Corporate coverage: 75 percent, capped at 700.
+Government lookup intentionally has no TEL rate. The stored bill is retried with SelfPay.
