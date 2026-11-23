@@ -1,0 +1,22 @@
+=================================================================
+==125==ERROR: AddressSanitizer: new-delete-type-mismatch on 0x506000000020 in thread T0:
+  object passed to delete has wrong type:
+  size of the allocated type:   56 bytes;
+  size of the deallocated type: 40 bytes.
+    #0 0x7f65745fb678 in operator delete(void*, unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164
+    #1 0x4027a0 in main B1/remove_destructor.cpp:54
+    #2 0x7f6573fb5ca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #3 0x7f6573fb5d64 in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x29d64) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+    #4 0x402270 in _start (/workspace/scratch/0f694c3884ae/work/bin/B1_remove_destructor+0x402270) (BuildId: 6ecdefeb9ebcd2f4fa9f2e43f29100c9a9f29714)
+
+0x506000000020 is located 0 bytes inside of 56-byte region [0x506000000020,0x506000000058)
+allocated by thread T0 here:
+    #0 0x7f65745fa778 in operator new(unsigned long) ../../../../src/libsanitizer/asan/asan_new_delete.cpp:95
+    #1 0x4023e5 in main B1/remove_destructor.cpp:46
+    #2 0x7f6573fb5ca7  (/lib/x86_64-linux-gnu/libc.so.6+0x29ca7) (BuildId: 5e5b51f4c39af9ac589408c1dc432ba390a273cc)
+
+SUMMARY: AddressSanitizer: new-delete-type-mismatch ../../../../src/libsanitizer/asan/asan_new_delete.cpp:164 in operator delete(void*, unsigned long)
+==125==HINT: if you don't care about these errors you may set ASAN_OPTIONS=new_delete_type_mismatch=0
+==125==ABORTING
+
+[Process exited with code 1]

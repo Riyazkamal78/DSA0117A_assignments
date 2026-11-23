@@ -1,0 +1,4 @@
+B1/remove_destructor.cpp: In function ‘int main()’:
+B1/remove_destructor.cpp:54:27: warning: deleting object of abstract class type ‘Bill’ which has non-virtual destructor will cause undefined behavior [-Wdelete-non-virtual-dtor]
+   54 |     for (Bill* b : bills) delete b;   // virtual destructor runs the right destructor
+      |                           ^~~~~~~~

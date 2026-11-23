@@ -1,0 +1,8 @@
+Production hierarchy cases (embedded in validate.hpp)
+OP Ravi: consultation=500 tests=1200
+IP Meena: days=3 rate=2500 procedures=38000 medicines=2000
+DAY Asha: package=18000
+ER Dev: base=2000 hours=3 hourly_rate=500
+Insurance: limit=40000 copay=0.20
+Scheme: OP=1000 IP=30000 DAY=15000 ER=2000
+Complete-the-code cases: OP Ravi(500,1200), IP Meena(3,2500,40000)

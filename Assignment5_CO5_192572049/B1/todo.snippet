@@ -1,0 +1,9 @@
+// TODO 1 in Bill
+virtual double total() const = 0;
+virtual std::string type() const { return "Bill"; }
+// TODO 2 in OutPatient
+double total() const override { return consultation + tests; }
+std::string type() const override { return "OP"; }
+// TODO 3 in InPatient
+double total() const override { return days * perDay + surgery; }
+std::string type() const override { return "IP"; }
