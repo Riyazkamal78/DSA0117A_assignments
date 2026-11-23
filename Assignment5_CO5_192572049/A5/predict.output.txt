@@ -1,0 +1,3 @@
+~f ~main caught 42
+
+[Process exited with code 0]
