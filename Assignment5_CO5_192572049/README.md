@@ -2,9 +2,6 @@
 
 **Name** Riyaz Kamal  
 **Register number** 192572049  
-**Compiler** g++ 14.2.0 (Debian 14.2.0-19), C++17, x86-64 Linux
-
-The nine task folders contain design evidence, test inputs or generators, source programs, execution logs and compiler-style output images as applicable. The images visualize actual local GCC runs. The A2, A5 and B2 prediction files record the predictions before execution. The intentionally broken C++ programs are described below.
 
 ## Build and run
 
